@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/oakar/static/css/main.5202ecb2.css",
-    "main.js": "/oakar/static/js/main.40bcee32.js",
+    "main.js": "/oakar/static/js/main.cb9fb360.js",
     "static/js/453.36fd89ca.chunk.js": "/oakar/static/js/453.36fd89ca.chunk.js",
     "static/media/workExp.png": "/oakar/static/media/workExp.f27909367d9189213738.png",
     "static/media/finland.jpg": "/oakar/static/media/finland.a03b38d65bf28a8c5f23.jpg",
@@ -15,11 +15,11 @@
     "static/media/joke.jpg": "/oakar/static/media/joke.928ca9596ea40b7e6053.jpg",
     "index.html": "/oakar/index.html",
     "main.5202ecb2.css.map": "/oakar/static/css/main.5202ecb2.css.map",
-    "main.40bcee32.js.map": "/oakar/static/js/main.40bcee32.js.map",
+    "main.cb9fb360.js.map": "/oakar/static/js/main.cb9fb360.js.map",
     "453.36fd89ca.chunk.js.map": "/oakar/static/js/453.36fd89ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5202ecb2.css",
-    "static/js/main.40bcee32.js"
+    "static/js/main.cb9fb360.js"
   ]
 }
