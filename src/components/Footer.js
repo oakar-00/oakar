@@ -8,11 +8,11 @@ function Footer() {
 					{" "}
 					<AiFillMail size={70} />
 				</a>
-				<a href="https://github.com/oakar-00">
+				<a href="https://github.com/oakar-00" target="_blank">
 					{" "}
 					<AiFillGithub size={70} />
 				</a>
-				<a href="https://www.linkedin.com/in/oakarmin/">
+				<a href="https://www.linkedin.com/in/oakarmin/" target="_blank">
 					{" "}
 					<AiFillLinkedin size={70} />
 				</a>

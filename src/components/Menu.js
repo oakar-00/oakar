@@ -1,38 +1,40 @@
+import { Link } from "react-router-dom";
+
 const Menu = () => {
 	return (
 		<div className="flex flex-row font-bold text-lg justify-evenly border-2 border-black">
 			<div className="w-1/4 p-2 hover:underline text-center ">
-				<a href="/">Home</a>
+				<Link to="/">Home</Link>
 			</div>
 			<div className="w-1/4 p-2 hover:underline text-center">
 				<div class="group relative cursor-pointer">
 					<div class="">
-						<a class="menu-hover lg:mx-8" href="/about">
+						<Link class="menu-hover lg:mx-8" to="/about">
 							About
-						</a>
+						</Link>
 					</div>
 
 					<div class="invisible absolute z-50 flex w-full flex-col bg-gray-100 py-1 px-4 text-gray-800 shadow-xl group-hover:visible text-sm bg-opacity-100">
-						<a
+						<Link
 							class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-800 hover:text-black hover:underline md:mx-2"
-							href="/about/education"
+							to="/about/education"
 						>
 							Education
-						</a>
+						</Link>
 
-						<a
+						<Link
 							class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-800 hover:text-black hover:underline md:mx-2"
-							href="/about/work"
+							to="/about/work"
 						>
 							Work Experience
-						</a>
+						</Link>
 
-						<a
+						<Link
 							class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-800 hover:text-black hover:underline md:mx-2"
-							href="/about/calisthenics"
+							to="/about/calisthenics"
 						>
 							Calisthenics
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>
@@ -40,37 +42,37 @@ const Menu = () => {
 			<div className="w-1/4 p-2 hover:underline text-center">
 				<div class="group relative cursor-pointer">
 					<div class="">
-						<a class="menu-hover lg:mx-4" href="/apps">
+						<Link class="menu-hover lg:mx-4" to="/apps">
 							Apps
-						</a>
+						</Link>
 					</div>
 
 					<div class="invisible absolute z-50 flex w-full flex-col bg-gray-100 py-1 px-4 text-gray-800 shadow-xl group-hover:visible text-sm bg-opacity-100">
-						<a
+						<Link
 							class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-800 hover:text-black hover:underline md:mx-2"
-							href="/apps/weather"
+							to="/apps/weather"
 						>
 							Weather
-						</a>
+						</Link>
 
-						<a
+						<Link
 							class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-800 hover:text-black hover:underline md:mx-2"
-							href="/apps/jokes"
+							to="/apps/jokes"
 						>
 							Jokes
-						</a>
+						</Link>
 
-						<a
+						<Link
 							class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-800 hover:text-black hover:underline md:mx-2"
-							href="/apps/cats"
+							to="/apps/cats"
 						>
 							Cats
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>
 			<div className="w-1/4 p-2 hover:underline text-center">
-				<a href="/contact">Contact</a>
+				<Link to="/contact">Contact</Link>
 				{/* <a href="/contact">Contact</a> */}
 			</div>
 		</div>

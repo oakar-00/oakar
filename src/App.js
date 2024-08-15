@@ -9,7 +9,7 @@ import Contact from "./pages/Contact/Contact";
 import Cats from "./pages/Apps/Cats/Cats";
 import Home from "./pages/Home/Home";
 import JokeForm from "./pages/Apps/Joke/JokeForm";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import NotFound from "./pages/NotFound";
 import WorkExp from "./pages/About/Work/WorkExp";
 import Calisthenics from "./pages/About/Calisthenics/Calisthenics";
@@ -17,7 +17,7 @@ import Calisthenics from "./pages/About/Calisthenics/Calisthenics";
 function App() {
 	return (
 		<>
-			<BrowserRouter>
+			<HashRouter>
 				<div className="flex flex-col bg-white min-h-screen justify-between">
 					<Header />
 
@@ -39,7 +39,7 @@ function App() {
 
 					<Footer />
 				</div>
-			</BrowserRouter>
+			</HashRouter>
 		</>
 	);
 }
